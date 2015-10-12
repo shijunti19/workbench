@@ -1,4 +1,4 @@
-<?php namespace Xiaolu\Workbench;
+<?php namespace Pingpong\Workbench;
 
 class Package
 {

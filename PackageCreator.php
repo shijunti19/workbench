@@ -1,4 +1,4 @@
-<?php namespace Xiaolu\Workbench;
+<?php namespace Pingpong\Workbench;
 
 use Illuminate\Filesystem\Filesystem;
 

@@ -1,11 +1,15 @@
 {
-    "name": "xiaolu/workbench",
+    "name": "pingpong/workbench",
     "description": "Laravel 5 Workbench.",
     "license": "MIT",
     "authors": [
         {
-            "name": "xiaolu",
-            "email": "527528007@qq.com"
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Pingpong Labs",
+            "email": "pingpong.labs@gmail.com"
         }
     ],
     "require": {
@@ -19,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Xiaolu\\Workbench\\": ""
+            "Pingpong\\Workbench\\": ""
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "5.2-dev"
         }
     },
     "minimum-stability": "dev"

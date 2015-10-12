@@ -1,8 +1,8 @@
-<?php namespace Xiaolu\Workbench\Console;
+<?php namespace Pingpong\Workbench\Console;
 
 use Illuminate\Console\Command;
-use Xiaolu\Workbench\Package;
-use Xiaolu\Workbench\PackageCreator;
+use Pingpong\Workbench\Package;
+use Pingpong\Workbench\PackageCreator;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -33,7 +33,7 @@ class WorkbenchMakeCommand extends Command
     /**
      * Create a new make workbench command instance.
      *
-     * @param  \Xiaolu\Workbench\PackageCreator  $creator
+     * @param  \Pingpong\Workbench\PackageCreator  $creator
      * @return void
      */
     public function __construct(PackageCreator $creator)
@@ -60,7 +60,7 @@ class WorkbenchMakeCommand extends Command
     /**
      * Run the package creator class for a given Package.
      *
-     * @param  \Xiaolu\Workbench\Package  $package
+     * @param  \Pingpong\Workbench\Package  $package
      * @return string
      */
     protected function runCreator($package)
