@@ -1,5 +1,5 @@
 {
-    "name": "pingpong/workbench",
+    "name": "xiaolu/workbench",
     "description": "Laravel 5 Workbench.",
     "license": "MIT",
     "authors": [
@@ -8,8 +8,8 @@
             "email": "taylorotwell@gmail.com"
         },
         {
-            "name": "Pingpong Labs",
-            "email": "pingpong.labs@gmail.com"
+            "name": "Xiaolu Labs",
+            "email": "xiaolu.labs@gmail.com"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pingpong\\Workbench\\": ""
+            "Xiaolu\\Workbench\\": ""
         }
     },
     "extra": {
